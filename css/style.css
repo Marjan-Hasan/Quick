@@ -1,0 +1,183 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    width: 100%;
+    border-bottom: 1px dotted #9e9b9b;
+    overflow: hidden;
+    padding: 10px 0;
+}
+
+header div {
+    float: left;
+    width: 45%;
+    margin-left: 5%;
+}
+
+header div a img {
+    height: 60%;
+    width: 15%;
+}
+
+header nav {
+    float: left;
+    width: 45%;
+    margin-right: 5%;
+    padding: 10px 0;
+    text-transform: capitalize;
+    color: #2d2b2b;
+}
+
+header nav ul {
+    list-style: none;
+    overflow: hidden;
+    float: right;
+}
+
+header nav ul li {
+    float: left;
+    margin-left: 35px;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: #1d1818;
+}
+
+.intro {
+    margin-top: 20px;
+    margin-right: 25%;
+    margin-bottom: 20px;
+    margin-left: 25%;
+    text-align: center;
+}
+
+.intro_h1_1 {
+    color: #0F2656;
+}
+
+.intro_h1_2 {
+    color: #008AFF;
+}
+
+.intro_p {
+    color: #0F2656;
+}
+
+.image {
+    display: block;
+    margin-top: 20px;
+    margin-right: auto;
+    margin-bottom: 20px;
+    margin-left: auto;
+    width: 50%;
+}
+
+.description {
+    overflow: hidden;
+    width: 100%;
+    text-align: center;
+    /* height: 113px; */
+}
+
+.left {
+    float: left;
+    width: 25%;
+    margin-left: 20%;
+    text-align: right;
+    margin-right: 5px;
+}
+
+.left h1 {
+    color: #F15767;
+}
+
+.left p {
+    color: #0F2656;
+}
+
+.right {
+    float: left;
+    width: 25%;
+    margin-right: 20%;
+    text-align: left;
+    margin-left: 5px;
+    color: #0F2656;
+}
+
+.client {
+    overflow: hidden;
+    margin: 50px 15%;
+}
+
+.client_1 {
+    float: left;
+    width: 290px;
+    height: 400px;
+    background-color: #FDEBED;
+    margin-right: 15px;
+}
+
+.client_1 img {
+    padding: 20px 0;
+}
+
+.client_1 h2 {
+    margin: 10px 0;
+}
+
+.client_1 p {}
+
+.client_2 {
+    float: left;
+    width: 290px;
+    height: 400px;
+    background-color: #EBF9F4;
+    margin-right: 15px;
+}
+
+.client_2 img {
+    padding: 16px 0;
+}
+
+.client_2 h2 {
+    margin: 10px 0;
+}
+
+.client_2 p {}
+
+.client_3 {
+    float: left;
+    width: 290px;
+    height: 400px;
+    background-color: #FFF7E8;
+    /* margin-right: 15px; */
+}
+
+.client_3 img {
+    padding: 23px 36px;
+}
+
+.client_3 h2 {
+    margin: 10px 0;
+}
+
+.client_3 p {}
+
+footer {
+    background-color: #008AFF;
+    height: 60px;
+    text-align: center;
+    font-size: small;
+}
+
+footer p {
+    color: #eae3e3;
+    padding: 21px 0;
+}
+
+footer p b {
+    letter-spacing: 2px;
+}
